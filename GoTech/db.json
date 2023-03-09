@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "questionnaires": [{
+    "id": 1,
+    "questions": [
+      {
+        "title": "What language is your favorite?",
+        "id": 1,
+        "type": "radio",
+        "required": true,
+        "answers": [
+          {
+            "id": 1,
+            "title": "JavaScript",
+            "isOpen": false
+          },
+          {
+            "id": 2,
+            "title": "TypeScript",
+            "isOpen": false
+          },
+          {
+            "id": 3,
+            "title": "CoffeeScript",
+            "isOpen": false
+          }
+        ]
+      },
+      {
+        "title": "What do you like about programing?",
+        "id": 2,
+        "type": "text",
+        "required": false,
+        "answers": [
+
+        ]
+      },
+      {
+        "title": "How was the assignment?",
+        "id": 3,
+        "type": "radio",
+        "required": true,
+        "answers": [
+          {
+            "id": 1,
+            "title": "Easy",
+            "isOpen": false
+          },
+          {
+            "id": 2,
+            "title": "Normal",
+            "isOpen": false
+          },
+          {
+            "id": 3,
+            "title": "Hard",
+            "isOpen": false
+          },
+          {
+            "id": 4,
+            "title": "Other",
+            "isOpen": false
+          }
+        ]
+      }
+    ]
+  }],
+  "profile": {
+    "name": "typicode"
+  }
+}

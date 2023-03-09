@@ -1,0 +1,17 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subHeader {
+    font-size: 16px;
+}
+
+.error {
+    color: #F26061;
+}
